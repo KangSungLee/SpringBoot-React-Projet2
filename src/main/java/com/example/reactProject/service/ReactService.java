@@ -10,7 +10,7 @@ public interface ReactService {
 	
 	React getUserByUid(String uid);
 	
-	List<React> getUserList(int page);
+	List<React> getUserList();
 	
 	int getUserCount();
 }

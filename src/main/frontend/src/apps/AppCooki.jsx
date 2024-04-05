@@ -29,7 +29,7 @@ function App() {
       })
       .catch(err => console.log(err))
   }, []);
-
+  
   function getCookie(name) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
@@ -49,8 +49,6 @@ function App() {
         console.log('myCookie가 설정되어 있지 않습니다.');
     }
   
-
-
   return (
     <div className="App">
       <header className="App-header">

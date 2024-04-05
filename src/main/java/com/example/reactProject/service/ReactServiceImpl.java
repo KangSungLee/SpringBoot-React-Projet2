@@ -20,10 +20,8 @@ public class ReactServiceImpl implements ReactService {
 	}
 
 	@Override
-	public List<React> getUserList(int page) {
-		int count = COUNT_PER_PAGE;
-		int offset = (page - 1) * COUNT_PER_PAGE;
-		return reactDao.getUserList(count, offset);
+	public List<React> getUserList() {
+		return reactDao.getUserList();
 	}
 
 	@Override
