@@ -254,4 +254,3 @@ function Row({ row, isOpen, toggleRow }) {
     </>
   );
 }
-
